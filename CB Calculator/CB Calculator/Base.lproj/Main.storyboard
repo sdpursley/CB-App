@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="f9T-IX-4CS">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CB_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="mGq-5J-H5Z">
+                                <rect key="frame" x="132" y="104" width="150" height="600"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="epy-4z-Rdr">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="31"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="1 Axle">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="b1W-7Q-9pp" kind="show" id="ndH-jA-0Yn"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mA6-hc-4bq">
+                                        <rect key="frame" x="0.0" y="81.5" width="150" height="31"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="2 Axles">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="OxF-xN-dGf" kind="show" id="p3b-8E-ne1"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hnl-KL-Ytv">
+                                        <rect key="frame" x="0.0" y="162.5" width="150" height="31"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="3 Axles">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gTQ-al-T0C">
+                                        <rect key="frame" x="0.0" y="244" width="150" height="31"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="4 Axles">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Svg-wv-XMu">
+                                        <rect key="frame" x="0.0" y="325" width="150" height="31"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="5 Axles">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M8z-27-gP9">
+                                        <rect key="frame" x="0.0" y="406.5" width="150" height="31"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="6 Axles">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7G0-eU-xIe">
+                                        <rect key="frame" x="0.0" y="487.5" width="150" height="31"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="7 Axles">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ylF-da-6Fi">
+                                        <rect key="frame" x="0.0" y="569" width="150" height="31"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="8 Axles">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="600" id="PGY-79-jGL"/>
+                                    <constraint firstAttribute="width" constant="150" id="diM-2j-EJM"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mGq-5J-H5Z" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Fxg-Ez-gmZ"/>
+                            <constraint firstItem="mGq-5J-H5Z" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iLb-CS-VAU"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Home" id="O6n-lg-tcp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="992.75362318840587" y="116.51785714285714"/>
+        </scene>
+        <!--Two Axle Calculator-->
+        <scene sceneID="P5o-yd-WNh">
+            <objects>
+                <viewController id="OxF-xN-dGf" customClass="TwoAxleViewController" customModule="CB_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hcA-uf-BbN">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Distance 1" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VOn-71-vfm">
+                                <rect key="frame" x="127" y="81" width="160" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Dm0-zP-umL"/>
+                                    <constraint firstAttribute="width" constant="160" id="qVG-U2-ucm"/>
+                                </constraints>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d6o-Pi-0EG">
+                                <rect key="frame" x="87" y="629" width="240" height="50"/>
+                                <color key="backgroundColor" red="0.45009386540000001" green="0.98132258650000004" blue="0.4743030667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="0Oi-BB-mSN"/>
+                                    <constraint firstAttribute="width" constant="240" id="VCQ-jh-IdJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                                <state key="normal" title="Calculate">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="calculateCB:" destination="OxF-xN-dGf" eventType="touchUpInside" id="TnF-X9-LDJ"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="The Center of Balance is: " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ONj-uI-VnA">
+                                <rect key="frame" x="49.5" y="436" width="315" height="77"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="315" id="Jzp-ye-nKX"/>
+                                    <constraint firstAttribute="height" constant="77" id="jg1-a3-fWH"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="67" id="tq2-O1-eOw"/>
+                                </constraints>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Weight 1" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bd9-oT-0RA">
+                                <rect key="frame" x="127" y="147" width="160" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="bFx-yS-0M6"/>
+                                    <constraint firstAttribute="width" constant="160" id="nie-Ox-tCA"/>
+                                </constraints>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Distance 2" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GpX-i5-LE4">
+                                <rect key="frame" x="127" y="274" width="160" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="26s-bc-NQ5"/>
+                                    <constraint firstAttribute="width" constant="160" id="Lbi-0I-ztt"/>
+                                </constraints>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Weight 2" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sp3-2n-sjB">
+                                <rect key="frame" x="127" y="340" width="160" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="8Nn-0p-noq"/>
+                                    <constraint firstAttribute="height" constant="40" id="9es-kH-OUf"/>
+                                </constraints>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="W1:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="oUt-Fi-ohx">
+                                <rect key="frame" x="72" y="147" width="48" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="483-uH-2zB"/>
+                                    <constraint firstAttribute="width" constant="48" id="QWb-2m-B0M"/>
+                                </constraints>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="D1:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="PwR-16-5bl">
+                                <rect key="frame" x="72" y="81" width="48" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="48" id="E0Y-N5-2cH"/>
+                                    <constraint firstAttribute="height" constant="40" id="VoF-Be-Gcd"/>
+                                </constraints>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="W2:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="AhP-7g-tfe">
+                                <rect key="frame" x="72" y="340" width="48" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="8UH-Sq-dtW"/>
+                                    <constraint firstAttribute="width" constant="48" id="v7A-3y-HHj"/>
+                                </constraints>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="D2:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="gmb-rs-T5N">
+                                <rect key="frame" x="72" y="274" width="48" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="48" id="SkE-oi-LfS"/>
+                                    <constraint firstAttribute="height" constant="40" id="xP2-FV-V96"/>
+                                </constraints>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="p8X-DB-9ti"/>
+                        <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VOn-71-vfm" firstAttribute="centerY" secondItem="hcA-uf-BbN" secondAttribute="centerY" constant="-303" id="4DY-EL-MY6"/>
+                            <constraint firstItem="AhP-7g-tfe" firstAttribute="centerX" secondItem="hcA-uf-BbN" secondAttribute="centerX" constant="-111" id="6Do-OA-ojS"/>
+                            <constraint firstItem="oUt-Fi-ohx" firstAttribute="centerX" secondItem="hcA-uf-BbN" secondAttribute="centerX" constant="-111" id="7r1-Jt-KG1"/>
+                            <constraint firstItem="gmb-rs-T5N" firstAttribute="centerX" secondItem="hcA-uf-BbN" secondAttribute="centerX" constant="-111" id="Ces-Dk-Qmj"/>
+                            <constraint firstItem="Bd9-oT-0RA" firstAttribute="centerY" secondItem="hcA-uf-BbN" secondAttribute="centerY" constant="-237" id="FHx-mJ-aOo"/>
+                            <constraint firstItem="oUt-Fi-ohx" firstAttribute="centerY" secondItem="hcA-uf-BbN" secondAttribute="centerY" constant="-237" id="J5n-Or-ePu"/>
+                            <constraint firstItem="sp3-2n-sjB" firstAttribute="centerY" secondItem="hcA-uf-BbN" secondAttribute="centerY" constant="-44" id="Mzi-Dr-ULs"/>
+                            <constraint firstItem="sp3-2n-sjB" firstAttribute="centerX" secondItem="hcA-uf-BbN" secondAttribute="centerX" id="NeL-FB-QAc"/>
+                            <constraint firstItem="PwR-16-5bl" firstAttribute="centerY" secondItem="hcA-uf-BbN" secondAttribute="centerY" constant="-303" id="Pt9-ub-vOx"/>
+                            <constraint firstItem="ONj-uI-VnA" firstAttribute="centerY" secondItem="hcA-uf-BbN" secondAttribute="centerY" constant="70.5" id="Sbc-T7-rz6"/>
+                            <constraint firstItem="GpX-i5-LE4" firstAttribute="centerX" secondItem="hcA-uf-BbN" secondAttribute="centerX" id="VsG-UK-lS1"/>
+                            <constraint firstItem="VOn-71-vfm" firstAttribute="centerX" secondItem="hcA-uf-BbN" secondAttribute="centerX" id="XOW-s7-mfk"/>
+                            <constraint firstItem="d6o-Pi-0EG" firstAttribute="centerX" secondItem="hcA-uf-BbN" secondAttribute="centerX" id="dIU-Ld-RWe"/>
+                            <constraint firstItem="Bd9-oT-0RA" firstAttribute="centerX" secondItem="hcA-uf-BbN" secondAttribute="centerX" id="hwJ-uk-8ix"/>
+                            <constraint firstItem="PwR-16-5bl" firstAttribute="centerX" secondItem="hcA-uf-BbN" secondAttribute="centerX" constant="-111" id="hyO-Ol-PyO"/>
+                            <constraint firstItem="d6o-Pi-0EG" firstAttribute="centerY" secondItem="hcA-uf-BbN" secondAttribute="centerY" constant="250" id="kD6-ZA-KQy"/>
+                            <constraint firstItem="ONj-uI-VnA" firstAttribute="centerX" secondItem="hcA-uf-BbN" secondAttribute="centerX" id="prN-bV-OSX"/>
+                            <constraint firstItem="gmb-rs-T5N" firstAttribute="centerY" secondItem="hcA-uf-BbN" secondAttribute="centerY" constant="-110" id="rjO-Sb-8SK"/>
+                            <constraint firstItem="AhP-7g-tfe" firstAttribute="centerY" secondItem="hcA-uf-BbN" secondAttribute="centerY" constant="-44" id="wTu-bc-Etj"/>
+                            <constraint firstItem="GpX-i5-LE4" firstAttribute="centerY" secondItem="hcA-uf-BbN" secondAttribute="centerY" constant="-110" id="yub-Zs-W39"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Two Axle Calculator" id="n64-g4-ceT"/>
+                    <connections>
+                        <outlet property="cbDisplay" destination="ONj-uI-VnA" id="Tpi-M9-Bij"/>
+                        <outlet property="d1Input" destination="VOn-71-vfm" id="sXd-Ma-x3Z"/>
+                        <outlet property="d2Input" destination="GpX-i5-LE4" id="ycZ-yQ-a7o"/>
+                        <outlet property="w1Input" destination="Bd9-oT-0RA" id="RIJ-1c-zeH"/>
+                        <outlet property="w2Input" destination="sp3-2n-sjB" id="nJ9-Bn-Ii9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aEF-si-Tr5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1757" y="117"/>
+        </scene>
+        <!--1 Axle Calculator-->
+        <scene sceneID="nr8-Zj-Kvw">
+            <objects>
+                <viewController storyboardIdentifier="one_axleVC" id="b1W-7Q-9pp" customClass="OneAxleViewController" customModule="CB_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IIq-L9-XWH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Distance" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KJw-hm-8Dz">
+                                <rect key="frame" x="127" y="135" width="160" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="PoU-0F-AY8"/>
+                                    <constraint firstAttribute="height" constant="40" id="cxQ-48-ek1"/>
+                                </constraints>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Weight" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qah-Qw-nW8">
+                                <rect key="frame" x="127" y="216" width="160" height="40"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="gg5-HY-8Qw"/>
+                                    <constraint firstAttribute="width" constant="160" id="wrg-Sq-T8Y"/>
+                                </constraints>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t4a-xh-BaK">
+                                <rect key="frame" x="87" y="589" width="240" height="50"/>
+                                <color key="backgroundColor" red="0.45009386540000001" green="0.98132258650000004" blue="0.4743030667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Ydk-Z3-pxW"/>
+                                    <constraint firstAttribute="width" constant="240" id="xqg-nf-3H3"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                                <state key="normal" title="Calculate">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="calculateCB:" destination="b1W-7Q-9pp" eventType="touchUpInside" id="fKV-5n-so8"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="The Center of Balance is: " translatesAutoresizingMaskIntoConstraints="NO" id="xdq-1e-sIB">
+                                <rect key="frame" x="49.5" y="362" width="315" height="67"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="315" id="EDe-Ng-ixN"/>
+                                    <constraint firstAttribute="height" constant="67" id="PsG-1l-Ps9"/>
+                                </constraints>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="D1:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="LWd-fm-nIm">
+                                <rect key="frame" x="71" y="135" width="48" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="IEc-r1-ZE2"/>
+                                    <constraint firstAttribute="width" constant="48" id="phN-7e-izr"/>
+                                </constraints>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="W1:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="TPE-gD-WN9">
+                                <rect key="frame" x="71" y="216" width="48" height="40"/>
+                                <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="8KY-2A-Jwx"/>
+                                    <constraint firstAttribute="width" constant="48" id="mit-AK-zA9"/>
+                                </constraints>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="uzC-FO-rHQ"/>
+                        <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="LWd-fm-nIm" firstAttribute="centerX" secondItem="IIq-L9-XWH" secondAttribute="centerX" constant="-112" id="9wf-oM-aHf"/>
+                            <constraint firstItem="LWd-fm-nIm" firstAttribute="centerY" secondItem="IIq-L9-XWH" secondAttribute="centerY" constant="-249" id="EiE-Zd-wAg"/>
+                            <constraint firstItem="TPE-gD-WN9" firstAttribute="centerY" secondItem="IIq-L9-XWH" secondAttribute="centerY" constant="-168" id="HrZ-F9-jkT"/>
+                            <constraint firstItem="xdq-1e-sIB" firstAttribute="centerY" secondItem="IIq-L9-XWH" secondAttribute="centerY" constant="-8.5" id="OVM-KA-CRj"/>
+                            <constraint firstItem="TPE-gD-WN9" firstAttribute="centerX" secondItem="IIq-L9-XWH" secondAttribute="centerX" constant="-112" id="OWO-Ui-bTW"/>
+                            <constraint firstItem="KJw-hm-8Dz" firstAttribute="centerX" secondItem="IIq-L9-XWH" secondAttribute="centerX" id="Ol8-8p-4bF"/>
+                            <constraint firstItem="xdq-1e-sIB" firstAttribute="centerX" secondItem="IIq-L9-XWH" secondAttribute="centerX" id="SCd-1k-0YD"/>
+                            <constraint firstItem="t4a-xh-BaK" firstAttribute="centerY" secondItem="IIq-L9-XWH" secondAttribute="centerY" constant="210" id="UTO-54-SDS"/>
+                            <constraint firstItem="qah-Qw-nW8" firstAttribute="centerY" secondItem="IIq-L9-XWH" secondAttribute="centerY" constant="-168" id="Vol-A5-MeZ"/>
+                            <constraint firstItem="KJw-hm-8Dz" firstAttribute="centerY" secondItem="IIq-L9-XWH" secondAttribute="centerY" constant="-249" id="d7w-SV-aKc"/>
+                            <constraint firstItem="t4a-xh-BaK" firstAttribute="centerX" secondItem="IIq-L9-XWH" secondAttribute="centerX" id="eyu-Xt-hzc"/>
+                            <constraint firstItem="qah-Qw-nW8" firstAttribute="centerX" secondItem="IIq-L9-XWH" secondAttribute="centerX" id="pdV-C2-5iI"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="1 Axle Calculator" id="HUM-gb-WxQ"/>
+                    <connections>
+                        <outlet property="cbDisplay" destination="xdq-1e-sIB" id="qmW-j3-Udx"/>
+                        <outlet property="d1Input" destination="KJw-hm-8Dz" id="5bF-FB-3E6"/>
+                        <outlet property="w1Input" destination="qah-Qw-nW8" id="3ID-C7-u6s"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9s5-r9-Xgb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1757" y="-568"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="dBz-gr-vzZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="f9T-IX-4CS" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleAspectFit" barStyle="blackTranslucent" translucent="NO" id="siD-DJ-gdR">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="7UZ-9y-iCy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7EG-W9-AFu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="82.608695652173921" y="116.51785714285714"/>
+        </scene>
+    </scenes>
+</document>
