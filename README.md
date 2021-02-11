@@ -6,7 +6,6 @@ This app can calculate the center of balance for any vehicle with up to 8 Axles.
 It should be noted that all of this information is public knowledge and in no way is it classified or secret information. Formulas and detailed information on how the calculations are made will be described below.
 
 DTR (Defence Travel Regulation) regulations on CB.
-
 https://www.ustranscom.mil/dtr/part-iii/dtr_part_iii_app_p.pdf
 
 
